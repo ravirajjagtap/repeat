@@ -8,6 +8,6 @@ resource "aws_instance" "my-inst" {
   }
   ami= "ami-084eb8fbbe66ad572"
   key_name = "tokyo-key"
-  security_groups = "sg-0e5e2ac91998c4d60"
+  vpc_security_group_ids = "vpc-0d4f640bc61acb3bb"
   
 }
